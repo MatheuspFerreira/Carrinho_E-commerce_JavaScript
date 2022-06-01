@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <title>Carrinho E-commerce</title>
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Developed by Matheus Ferreira</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a  class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Sobre o projeto
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="https://github.com/MatheuspFerreira/Carrinho_E-commerce_JavaScript/blob/master/README.md">Objetivo e principais techs do projeto</a></li>
+                <li><a class="dropdown-item" href="https://github.com/MatheuspFerreira/Carrinho_E-commerce_JavaScript">Repositório no GitHub</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </header>
+    <main class="main-container">
+      <div class="Data_Products">
+        <section>
+          <ul class="Samsung-galaxy">
+            <li><img class="Cadeira-gamer" src="imagens/smartphone-samsung-galaxy-a32-128gb- branco.jpg" alt="Cadeira-gamer"></li>
+            <li class="id-produto2">ID:<span class="id-produto">01</span></li>
+            <li class="nome-produto">Samsung Galaxy A32-128gb</li>
+            <li>R$ <span class="valor-produto">1199.00</span></li>
+            <li><input type="button" value="Adicionar ao Carrinho"class="btn-carrinho"></li>
+            <li><input type="button" value="Remover do Carrinho" class="btn-remover"></li>
+           </ul>
+        </section>
+        <section>
+          <ul class="iphone-12-128gb-vermelho">
+            <li><img class="Cadeira-gamer" src="imagens/iphone-12-128gb-vermelho.jpg" alt="Cadeira-gamer"></li>
+            <li class="id-produto2">ID:<span class="id-produto">02</span></li>
+            <li class="nome-produto">Iphone 12 - 128gb</li>
+            <li>R$ <span class="valor-produto">5000.00</span></li>
+            <li><input type="button" value="Adicionar ao Carrinho" class="btn-carrinho"></li>
+            <li><input type="button" value="Remover do Carrinho" class="btn-remover"></li>
+           </ul>
+        </section>
+        <section>
+          <ul class="Cadeira-gamer">
+            <li><img class="Cadeira-gamer" src="imagens/cadeira-gamer.jpg" alt="Cadeira-gamer"></li>
+            <li class="id-produto2">ID:<span class="id-produto">03</span></li>
+            <li class="nome-produto">Cadeira Gamer</li>
+            <li>R$ <span class="valor-produto">1359.00</span></li>
+            <li><input type="button" value="Adicionar ao Carrinho" class="btn-carrinho"></li>
+            <li><input type="button" value="Remover do Carrinho" class="btn-remover"></li>
+          </ul>
+        </section>
+        <section>
+          <ul class="headset-gamer"> 
+            <li><img class="Cadeira-gamer" src="imagens/headset-gamer-corsair-virtuoso branco.jpg" alt="Cadeira-gamer"></li>
+            <li class="id-produto2">ID:<span class="id-produto">04</span></li>
+            <li class="nome-produto">Headset Gamer Corsair</li>
+            <li>R$ <span class="valor-produto">1200.00</span></li>
+            <li><input type="button" value="Adicionar ao Carrinho" class="btn-carrinho"></li>
+            <li><input type="button" value="Remover do Carrinho" class="btn-remover"></li>
+           </ul>
+        </section>
+        <section>
+          <ul class="mouse-gamer">
+            <li><img class="Cadeira-gamer" src="imagens/mouse-gamer-sem-fio-logitech-g703-lightspeed-rgb-lightsync-6-botoes-programaveis-hero-25k-recarregavel-compativel-powerplay-910-005639_1644413882_gg.jpg" alt="Cadeira-gamer"></li>
+            <li class="id-produto2">ID:<span class="id-produto">05</span></li>
+            <li class="nome-produto">Mouse Logitech G703</li>
+            <li>R$ <span class="valor-produto">300.00</span></li>
+            <li><input type="button" value="Adicionar ao Carrinho" class="btn-carrinho"></li>
+            <li><input type="button" value="Remover do Carrinho" class="btn-remover"></li>
+           </ul>
+        </section>
+        <section>
+          <ul class="monitor-samsung">
+            <li><img class="Cadeira-gamer" src="imagens//monitor-gamer-samsung-odyssey-g5-34-curvo-165hz-1ms-ultra.jpg" alt="Cadeira-gamer"></li>
+            <li class="id-produto2">ID:<span class="id-produto">06</span></li>
+            <li class="nome-produto">Monitor Samsung Odssey</li>
+            <li>R$ <span class="valor-produto">2200.00</span></li>
+            <li><input type="button" value="Adicionar ao Carrinho" class="btn-carrinho"></li>
+            <li><input type="button" value="Remover do Carrinho" class="btn-remover"></li>
+          </ul>
+        </section>
+        <section>
+          <ul class="base-gamer">
+            <li><img class="Cadeira-gamer" src="imagens/base para note.jpg" alt="Cadeira-gamer"></li>
+            <li class="id-produto2">ID:<span class="id-produto">07</span></li>
+            <li class="nome-produto">Base Gamer para notebook</li>
+            <li>R$ <span class="valor-produto">300.00</span></li>
+            <li><input type="button" value="Adicionar ao Carrinho" class="btn-carrinho"></li>
+            <li><input type="button" value="Remover do Carrinho" class="btn-remover"></li>
+          </ul>
+        </section>
+        <section>
+          <ul class="placa-de-video">
+            <li><img class="Cadeira-gamer" src="imagens/placa-de-video-zotac-gaming-nvidia-geforce-rtx-2060-6gb-gddr6-zt-.jpg" alt="Cadeira-gamer"></li>
+            <li class="id-produto2">ID:<span class="id-produto">08</span></li>
+            <li class="nome-produto">Placa de Vídeo Zotac-rtx 2060 6Gb</li>
+            <li>R$ <span class="valor-produto">3200.00</span></li>
+            <li><input type="button" value="Adicionar ao Carrinho" class="btn-carrinho"></li>
+            <li><input type="button" value="Remover do Carrinho" class="btn-remover"></li>
+           </ul>
+        </section>
+        <section>
+          <ul class="telcado-logitech">
+            <li><img class="Cadeira-gamer" src="imagens/teclado-sem-fio-mecanico-gamer-logitech-g915-lightspeed-bluetooth-design-ultrafino-rgb-switch-gl-tactile-marrom-us-920-008902_1612891120_gg.jpg" alt="Cadeira-gamer"></li>
+            <li class="id-produto2">ID:<span class="id-produto">09</span></li>
+            <li class="nome-produto">Teclado Logitech G915</li>
+            <li>R$ <span class="valor-produto">1350.00</span></li>
+            <li><input type="button" value="Adicionar ao Carrinho" class="btn-carrinho"></li>
+            <li><input type="button" value="Remover do Carrinho" class="btn-remover"></li>
+          </ul>
+        </section>
+        <section>
+          <ul class="notebook-gamer">
+            <li><img class="Cadeira-gamer" src="imagens/Notebook-Gamer-Acer-An517-Tela-17-3-Ips-Full-Hd-144hz-I7-32gb-Ssd-1tb-Gtx-1650-Windows-11_1648057100_gg.jpg" alt="Cadeira-gamer"></li>
+            <li class="id-produto2">ID:<span class="id-produto">10</span></li>
+            <li class="nome-produto">Notebook Gamer Acer</li>
+            <li>R$ <span class="valor-produto">10350.00</span></li>
+            <li><input type="button" value="Adicionar ao Carrinho"class="btn-carrinho"></li>
+            <li><input type="button" value="Remover do Carrinho" class="btn-remover"></li>
+          </ul>
+        </section>
+      </div>
+      <div class="Conteiner-Carrinho" >
+        <section class="header-car-display">
+          <h1 class="text-h1"> Meu Carrinho</h1>
+        </section>
+        <div id="meu-carrinho"></div>
+        <section class="footer-car-display">
+          <ul>
+            <li>Total de produtos: <span id="totalProdutos">0</span></li>
+            <li>Total a pagar: R$ <span id="totalaPagar">0,00</span></li>
+            <li><input type="button" value="Limpar Carrinho" class="btn-limpar-carrinho"></li>
+            <li></li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <script src="index.js"></script>   
+</body>
+</html>

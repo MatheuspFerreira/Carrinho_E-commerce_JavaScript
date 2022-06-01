@@ -1,0 +1,168 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+   
+
+    .navbar-expand-lg {
+        height: 100px;
+        box-shadow: 0px 2px 12px -3px #000000;
+        
+    }
+
+   
+    .container-fluid {
+        margin-left: 170px;
+    }
+   
+    .navbar-collapse {
+
+        display: flex;
+        flex-direction: row;
+        margin-left: 50px;
+        margin-top: 2px;
+        
+        
+  
+        
+
+    }
+
+    
+    main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    padding: 50px 0;
+    
+  }
+
+
+  .Data_Products {
+      display: flex;
+      flex-direction: row;
+      width: 60%;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      background-color: whitesmoke;
+      
+  }
+
+  
+
+
+  section {
+    width: 30%;
+    background-color: white;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    /*border-color: black;
+    border-width: 1px;
+    border-style: solid;*/
+    padding: 20px
+    
+  }
+
+  section:hover {
+    box-shadow: 0px 2px 12px -3px #000000;
+  }
+
+  section ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      
+  }
+
+  section ul li {
+      display: inline-block;
+  }
+
+ li img {
+     width: 50%;
+     margin: 0 25%;
+
+ }
+
+ .id-produto, .id-produto2 {
+     display: none;
+
+ }
+
+ input {
+     
+     margin-top: 15px;
+     width: 170px;
+     height: 30px;
+ }
+
+ .Conteiner-Carrinho{
+
+     display: flex;
+     flex-direction: column;
+     width: 20%;
+     height: 1185px;
+     border: 1px solid black;
+     border-radius: 10px;
+     padding: 10px;
+ }
+
+ .text-h1 {
+
+    font-size: 26px;
+    text-align: center;
+    padding: 20px 20px;
+    
+     
+ }
+
+ .header-car-display {
+     width: 100%;
+     margin: 0;
+     border: 1px solid black;
+     
+
+ }
+
+ .footer-car-display {
+        width: 100%;
+        margin: 0;
+        border: 1px solid black;
+        
+ }
+
+ .footer-car-display ul {
+    align-items: start;
+ }
+
+ .footer-car-display ul li {
+     margin-bottom: 7px;
+ }
+
+ #meu-carrinho {
+    height: 1200px;
+    overflow-y: scroll;
+    margin: 6px 0;
+    padding: 30px 20px;
+    background-color: white;
+    border-radius:5px;
+    border: 1px solid black;
+
+ }
+
+ #meu-carrinho section {
+     width: 100%;
+     background-color: whitesmoke;
+ }
+
+ .Carrinho-produto {
+
+    margin-bottom: 65px;
+
+ }
